@@ -1,23 +1,20 @@
-# boisemoldexperts.com
+# [Boise Mold Experts](https://boisemoldexperts.com/)
 
-Static site, no build step. Each page is a folder containing an index.html.
+Mold removal and water damage restoration in Boise, Idaho, and the Treasure Valley.
 
-## Go live on GitHub Pages
-1. Create a new GitHub repo and upload EVERYTHING in this folder to the repo root (index.html must be at the top level, not inside a subfolder).
-2. Repo > Settings > Pages > Source: "Deploy from a branch". Branch: main, folder: / (root). Save.
-3. Custom domain: boisemoldexperts.com (already set by the CNAME file). Tick "Enforce HTTPS" once it's available.
-4. At your domain registrar, set these DNS records:
-   - A records for @ pointing to 185.199.108.153, 185.199.109.153, 185.199.110.153 and 185.199.111.153
-   - CNAME for www pointing to <your-github-username>.github.io
-5. Submit https://boisemoldexperts.com/sitemap.xml in Google Search Console.
+Boise Mold Experts helps homeowners across Boise, Meridian, Nampa, Eagle, Caldwell, and Kuna with mold problems, wet basements, and water damage, from inspection to cleanup and drying.
 
-## Changing the phone number
-Find and replace across all files:
-- (321) 985-3339
-- +13219853339
+## Services
 
-## Draft pages (noindex, not in sitemap.xml)
-- /sewage-backup-cleanup/
-- /service-areas/meridian-id/sewage-backup/
-- /service-areas/kuna-id/sewage-backup/
-To publish one, remove its <meta name="robots" content="noindex, nofollow"> line and add its URL to sitemap.xml.
+- [Mold remediation](https://boisemoldexperts.com/mold-remediation/) — Whole-home or large areas: containment, HEPA air filtration, removal of affected materials, and a clearance check before rebuild.
+- [Mold removal](https://boisemoldexperts.com/mold-removal/) — Room by room: bathrooms, closets, attics, under sinks, and window frames.
+- [Testing & inspection](https://boisemoldexperts.com/mold-testing-inspection/) — Moisture mapping, visual inspection, and sampling when it's actually useful.
+- [Basement mold removal](https://boisemoldexperts.com/basement-mold-removal/) — Foundation seepage, irrigation-season dampness, and finished basements that smell.
+- [Water damage restoration](https://boisemoldexperts.com/water-damage-restoration/) — Extraction, structural drying, flooded basements, and ceiling leaks.
+- [Sewage backup cleanup](https://boisemoldexperts.com/sewage-backup-cleanup/) — Sewage coming up through a floor drain, toilet, or tub.
+
+## Service areas
+
+Boise · Meridian · Nampa · Eagle · Caldwell · Kuna, Idaho.
+
+Learn more at [boisemoldexperts.com](https://boisemoldexperts.com/).
