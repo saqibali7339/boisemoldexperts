@@ -455,7 +455,8 @@ table.data .pill.lo{background:oklch(95% 0.045 160);color:oklch(40% 0.09 160)}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
 
 /* Blog layout: article + sticky sidebar (blog posts only) */
-.blog-layout{display:grid;gap:28px}
+.blog-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:28px}
+.blog-main,.blog-side{min-width:0}
 @media (min-width:900px){
 .blog-layout{grid-template-columns:minmax(0,1fr) 340px;gap:32px;align-items:start}
 .blog-side{position:sticky;top:100px}
